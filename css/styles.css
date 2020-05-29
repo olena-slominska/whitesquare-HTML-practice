@@ -41,7 +41,12 @@ nav ul {
 	margin: 0;
 	padding: 0;
 }
-
+.top-menu {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: nowrap;
+}
 nav li {
 	list-style-position: inside;
 	font: 14px 'Oswald', sans-serif;
@@ -53,6 +58,7 @@ nav li {
 	display: inline-block;
 	padding: 10px 33px;
 	margin: 0;
+	min-width: 20px;
 }
 
 .top-menu li.active {
